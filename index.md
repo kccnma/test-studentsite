@@ -10,13 +10,13 @@ sections:
       This section can contain a subtitle or tagline. The recommended length is
       one to three sentences, but can be changed as you prefer.
     actions:
-      - label: Get Started
+      - label: Hero Button
         url: docs/index.html
   - section_id: features
     component: features_block.html
     type: featuresblock
     featureslist:
-      - title: Documentation
+      - title: Notes
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
@@ -31,7 +31,7 @@ sections:
         actions:
           - label: View Posts
             url: blog/index.html
-      - title: Style Guides
+      - title: Style Guide
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
@@ -52,7 +52,7 @@ sections:
       - label: View Demo
         url: /docs/getting-started/index.html
       - label: Get Started
-        url: /docs/getting-started/index.html
+        url: /docs/getting-started/installation/
   - section_id: features-two-col
     component: features_block.html
     type: featuresblock
@@ -82,7 +82,7 @@ sections:
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
-        url: /docs/getting-started/installation.html
+        url: /docs/getting-started/index.html
   - section_id: text-no-img
     component: content_block.html
     type: contentblock
@@ -93,7 +93,7 @@ sections:
       consectetur lobortis.
     actions:
       - label: Get Started
-        url: /docs/getting-started/installation.html
+        url: /docs/getting-started/installation/
 menus:
   main:
     weight: 1

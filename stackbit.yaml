@@ -3,16 +3,16 @@ ssgName: jekyll
 ssgVersion: 0.1.12
 buildCommand: ./ssg-build.sh
 publishDir: _site
-staticDir: ''
+staticDir: ""
 uploadDir: images
 dataDir: _data
-pagesDir: ''
+pagesDir: ""
 pageLayoutKey: layout
 metadata:
-  title: Libris
+  title: Student Site Test
   description: A documentation theme
-  author: Stackbit
-  authorURL: 'https://www.stackbit.com'
+  author: NMA
+  authorURL: "http://nma.kcc.hawaii.edu"
   palettes:
     blue:
       images:
@@ -32,9 +32,9 @@ metadata:
         large: images/demo-1024x768.png
 stackbit_banner:
   show_banner: true
-  name: Libris
-  create_url: 'https://app.stackbit.com/create?theme=libris'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-libris'
+  name: Student Site Test
+  create_url: "https://app.stackbit.com/create?theme=libris"
+  github_url: "https://github.com/stackbithq/stackbit-theme-libris"
 models:
   config:
     type: config
@@ -53,8 +53,8 @@ models:
       - type: string
         name: permalink
         label: Permalink
-        description: 'The output path for your pages, posts, or collections.'
-        default: '/posts/:slug:output_ext'
+        description: "The output path for your pages, posts, or collections."
+        default: "/posts/:slug:output_ext"
         hidden: true
       - type: enum
         name: palette
@@ -629,7 +629,7 @@ models:
     type: object
     label: Site Menu Item
     labelField: title
-    description: 'Site menu item model, defines fields for a single site menu item'
+    description: "Site menu item model, defines fields for a single site menu item"
     fields:
       - type: string
         name: identifier
@@ -656,7 +656,7 @@ models:
     type: object
     label: Page Menus
     labelField: null
-    description: 'Page menus model, defines menus that can be specified from within pages'
+    description: "Page menus model, defines menus that can be specified from within pages"
     fields:
       - type: page_menu_item
         name: main
@@ -670,7 +670,7 @@ models:
     type: object
     label: Page Menu Item
     labelField: title
-    description: 'Page menu item model, defines fields for a single page menu item'
+    description: "Page menu item model, defines fields for a single page menu item"
     fields:
       - type: string
         name: title

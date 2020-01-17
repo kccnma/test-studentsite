@@ -1,9 +1,9 @@
 main:
   - identifier: layouts
-    title: Sample Layouts
-    url: '#'
+    title: Layouts
+    url: "#"
     weight: 5
   - identifier: github
-    title: GitHub
-    url: 'https://github.com/'
+    title: Repo
+    url: "https://github.com/kccnma/test-studentsite"
     weight: 6
